@@ -25,7 +25,7 @@ public class HtmlRead {
             while ( (line = reader.readLine()) != null ) {
                 String[] temp = line.split("\'");
                 for(int i = 0; i < temp.length; i++){
-                    if(temp[i].indexOf("https://") == 0&& temp[i].contains(contains)){
+                    if(temp[i].indexOf("https://") == 0 && temp[i].contains(contains)){
                         System.out.println(temp[i]);
                     }
 
